@@ -62,7 +62,7 @@ class InputDevice;
 class Q_COMPOSITOR_EXPORT QWaylandKeymap
 {
 public:
-    QWaylandKeymap(const QString &layout = QLatin1String("us"), const QString &variant = QString(), const QString &options = QString(),
+    QWaylandKeymap(const QString &layout = QLatin1String("fi"), const QString &variant = QString(), const QString &options = QString(),
                    const QString &model = QLatin1String("pc105"), const QString &rules = QLatin1String("evdev"));
 
     inline QString layout() const { return m_layout; }
