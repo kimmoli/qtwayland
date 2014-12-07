@@ -88,7 +88,7 @@ public:
         xkb_rule_names names;
         names.rules = strdup("evdev");
         names.model = strdup("pc105");
-        names.layout = strdup("us");
+        names.layout = strdup("fi");
         names.variant = strdup("");
         names.options = strdup("");
 
